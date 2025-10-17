@@ -1,6 +1,4 @@
-<script>
-   
-   const score = JSON.parse(localStorage.getItem('score'))||{ //created a top to save the score after we run function every time 
+ const score = JSON.parse(localStorage.getItem('score'))||{ //created a top to save the score after we run function every time 
         
     wins:0,
     loses:0,
@@ -167,4 +165,4 @@ else{
 autoButton.addEventListener
 
  
-</script>
+
